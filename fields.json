@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Balon Detelinara",
+    "type": "Fudbal",
+    "location": "Novi Sad",
+    "pricePerHour": 2000
+  },
+  {
+    "name": "SC Sajmište",
+    "type": "Košarka",
+    "location": "Novi Sad",
+    "pricePerHour": 1500
+  },
+  {
+    "name": "TC Stadion",
+    "type": "Tenis",
+    "location": "Beograd",
+    "pricePerHour": 2500
+  }
+]
