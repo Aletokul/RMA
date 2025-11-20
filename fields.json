@@ -26,7 +26,13 @@
   {
     "name": "SC GDM",
     "type": "Košarka/Fudbal",
-    "location": "Beograd",
+    "location": "Novi Sad",
     "pricePerHour": 2500
+  },
+  {
+    "name": "Hala Radivoj Korać",
+    "type": "Košarka",
+    "location": "Beograd",
+    "pricePerHour": 3000
   }
 ]
