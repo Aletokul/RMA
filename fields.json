@@ -3,7 +3,7 @@
     "name": "Bombonjera",
     "type": "Fudbal",
     "location": "Novi Sad",
-    "pricePerHour": 2000
+    "pricePerHour": 2500
   },
   {
     "name": "SC Sajmište",
@@ -12,8 +12,20 @@
     "pricePerHour": 1500
   },
   {
-    "name": "TC Stadion",
+    "name": "SC Topspin",
     "type": "Tenis",
+    "location": "Beograd",
+    "pricePerHour": 3000
+  },
+  {
+    "name": "TK Sajmište",
+    "type": "Tenis",
+    "location": "Novi Sad",
+    "pricePerHour": 2000
+  },
+  {
+    "name": "SC GDM",
+    "type": "Košarka/Fudbal",
     "location": "Beograd",
     "pricePerHour": 2500
   }
