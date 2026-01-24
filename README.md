@@ -33,6 +33,26 @@ Podaci se čuvaju lokalno na uređaju i brišu se prilikom deinstalacije aplikac
 ## Napomena
 Projekat je razvijen kao studentski projekat u cilju demonstracije rada sa Android aplikacijama, lokalnom bazom podataka i osnovnim UI komponentama.
 
+## Screenshots
+
+<table>
+   <tr>
+      <td>Početna/Home</td>
+      <td>Lista terena/List of fields</td>
+      <td>Detalji terena/Field details</td>
+      <td>Rezervacija/Reservation</td>
+      <td>Moje rezervacije/My reservations</td>
+   </tr>
+   <tr>
+      <td><img src="screenshots/home.jpg" width="180" /></td>
+      <td><img src="screenshots/fields.jpg" width="180" /></td>
+      <td><img src="screenshots/details.jpg" width="180" /></td>
+      <td><img src="screenshots/reservation.jpg" width="180" /></td>
+      <td><img src="screenshots/myres.jpg" width="180" /></td>
+   </tr>
+</table>
+
+
 <br>
 
 ---
@@ -41,7 +61,7 @@ Projekat je razvijen kao studentski projekat u cilju demonstracije rada sa Andro
 # RMA – Sports Field Reservation App (Android Studio)
 
 Android application for reserving sports fields.  
-The app allows users to view available time slots, create reservations, and manage their bookings.
+The app allows users to view available time slots, create reservations, and manage their reservations.
 
 ## Features
 - View available sports fields and time slots
@@ -64,7 +84,7 @@ All data is saved locally on the device and recreated on a fresh install.
    ```bash
    git clone https://github.com/Aletokul/RMA.git
    ```
-2. Open the project in Android Studi
+2. Open the project in Android Studio
 3. Run the app
 
 ## Note
