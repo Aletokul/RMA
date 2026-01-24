@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_primary"
+    android:padding="16dp"
+    tools:context=".activities.AddReservationActivity">
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/cardReservation"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_margin="8dp"
+      app:cardCornerRadius="16dp"
+      app:cardElevation="4dp"
+      app:cardUseCompatPadding="true"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/card_bg"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+      <TextView
+          android:id="@+id/tvAddReservationTitle"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:paddingBottom="16dp"
+          android:text="Nova rezervacija"
+          android:textColor="@color/text_primary"
+          android:textSize="22sp"
+          android:textStyle="bold" />
+
+      <EditText
+          android:id="@+id/etDate"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="4dp"
+          android:background="@drawable/bg_input"
+          android:clickable="true"
+          android:focusable="false"
+          android:hint="Datum"
+          android:inputType="none"
+          android:padding="12dp"
+          android:textColorHint="@color/input_stroke" />
+
+      <EditText
+          android:id="@+id/etTime"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:background="@drawable/bg_input"
+          android:clickable="true"
+          android:focusable="false"
+          android:hint="Vreme početka"
+          android:inputType="none"
+          android:padding="12dp"
+          android:textColor="@color/text_primary"
+          android:textColorHint="@color/input_stroke" />
+
+      <EditText
+          android:id="@+id/etEndTime"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:background="@drawable/bg_input"
+          android:clickable="true"
+          android:focusable="false"
+          android:hint="Vreme završetka"
+          android:inputType="none"
+          android:padding="12dp"
+          android:textColor="@color/text_primary"
+          android:textColorHint="@color/input_stroke" />
+
+
+      <EditText
+          android:id="@+id/etNote"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:background="@drawable/bg_input"
+          android:hint="Napomena"
+          android:inputType="textCapSentences|textMultiLine"
+          android:minLines="2"
+          android:padding="12dp"
+          android:textColor="@color/white"
+          android:textColorHint="@color/input_stroke" />
+
+      <Button
+          android:id="@+id/btnSaveReservation"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="16dp"
+          android:backgroundTint="@color/btn_primary"
+          android:padding="12dp"
+          android:text="Sačuvaj rezervaciju"
+          android:textAllCaps="false"
+          android:textColor="@color/white"
+          android:textSize="16sp" />
+
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

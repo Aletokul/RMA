@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_primary"
+    android:padding="40dp"
+    tools:context=".activities.AddReservationActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardReservation"
+        android:layout_width="900dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/card_bg"
+            android:orientation="vertical"
+            android:padding="36dp">
+
+            <!-- Naslov -->
+            <TextView
+                android:id="@+id/tvAddReservationTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="24dp"
+                android:text="Nova rezervacija"
+                android:textColor="@color/text_primary"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <!-- DVA STUBA ZA TABLET -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="24dp"
+                android:weightSum="2">
+
+                <!-- LEVA STRANA: DATUM + VREME -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingEnd="20dp">
+
+                    <EditText
+                        android:id="@+id/etDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_input"
+                        android:clickable="true"
+                        android:focusable="false"
+                        android:hint="Datum"
+                        android:padding="16dp"
+                        android:textColor="@color/text_primary"
+                        android:textColorHint="@color/input_stroke"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/etTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/bg_input"
+                        android:clickable="true"
+                        android:focusable="false"
+                        android:hint="Početak termina"
+                        android:padding="16dp"
+                        android:textColor="@color/text_primary"
+                        android:textColorHint="@color/input_stroke"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/etEndTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/bg_input"
+                        android:clickable="true"
+                        android:focusable="false"
+                        android:hint="Kraj termina"
+                        android:padding="16dp"
+                        android:textColor="@color/text_primary"
+                        android:textColorHint="@color/input_stroke"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <!-- DESNA STRANA: NAPOMENA -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingStart="20dp">
+
+                    <EditText
+                        android:id="@+id/etNote"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/bg_input"
+                        android:gravity="top|start"
+                        android:hint="Napomena"
+                        android:inputType="textCapSentences|textMultiLine"
+                        android:padding="16dp"
+                        android:textColor="@color/text_primary"
+                        android:textColorHint="@color/input_stroke"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Dugme za čuvanje -->
+            <Button
+                android:id="@+id/btnSaveReservation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/btn_primary"
+                android:padding="16dp"
+                android:text="Sačuvaj rezervaciju"
+                android:textAllCaps="false"
+                android:textColor="@color/text_secondary"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
