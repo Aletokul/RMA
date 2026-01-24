@@ -33,6 +33,12 @@ Podaci se čuvaju lokalno na uređaju i brišu se prilikom deinstalacije aplikac
 ## Napomena
 Projekat je razvijen kao studentski projekat u cilju demonstracije rada sa Android aplikacijama, lokalnom bazom podataka i osnovnim UI komponentama.
 
+
+
+<br>
+
+---
+
 ## Screenshots
 
 <table>
@@ -51,9 +57,6 @@ Projekat je razvijen kao studentski projekat u cilju demonstracije rada sa Andro
       <td><img src="screenshots/myres.jpg" width="150" /></td>
    </tr>
 </table>
-
-
-<br>
 
 ---
 
