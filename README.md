@@ -44,11 +44,11 @@ Projekat je razvijen kao studentski projekat u cilju demonstracije rada sa Andro
       <td>Moje rezervacije/My reservations</td>
    </tr>
    <tr>
-      <td><img src="screenshots/home.jpg" width="180" /></td>
-      <td><img src="screenshots/fields.jpg" width="180" /></td>
-      <td><img src="screenshots/details.jpg" width="180" /></td>
-      <td><img src="screenshots/reservation.jpg" width="180" /></td>
-      <td><img src="screenshots/myres.jpg" width="180" /></td>
+      <td><img src="screenshots/home.jpg" width="150" /></td>
+      <td><img src="screenshots/fields.jpg" width="150" /></td>
+      <td><img src="screenshots/details.jpg" width="150" /></td>
+      <td><img src="screenshots/reservation.jpg" width="150" /></td>
+      <td><img src="screenshots/myres.jpg" width="150" /></td>
    </tr>
 </table>
 
